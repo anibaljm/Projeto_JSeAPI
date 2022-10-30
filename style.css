@@ -1,0 +1,252 @@
+* {
+    padding-left: 0%;
+    margin: 0%;
+    text-align:center;
+    font-family: 'arial', sans-serif;
+    position: relative;
+    max-width: 1919px;
+}
+  /*header*/
+header {
+    width: 100%;
+    justify-content: space-around;
+}  
+.nav {
+    top:0px; 
+    left: 1px;
+    display: flex;
+    background: #0F1C2E 0% 0% no-repeat padding-box;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1919px;
+    height: 67px;
+    width: 100%;
+    margin-right: 0;
+    margin: 0;
+    padding: 0;
+}
+  nav a {
+    margin-left: 25px;
+}
+.index {
+    display: flex;
+    text-align: left;
+    text-decoration: underline;
+    align-items: center;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    opacity: 1;
+    height: 17px;
+    list-style-type: none;
+}
+  
+.item{
+    color: #FFFFFF;
+}
+  
+.mini_avatar {
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:150px;
+    border: 1px solid #707070;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+  /*banner*/
+.banner {
+    background-color: #707070;
+    top:0.5;
+    left: 1px;
+}
+.banner_img{
+    height: 337px;
+    width: 1276px;
+}
+
+  /*Photo*/  
+.perfil_img{
+    float: left;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    margin-left: 5%;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.contato1 {
+    position: absolute;
+    bottom: -150px;
+    left: calc(16% - 80px);
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    cursor: pointer;
+}
+.contato2 {
+    position: absolute;
+    bottom: -155px;
+    left: calc(19% - 75px);
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    cursor: pointer;
+}
+.contato3 {
+    position: absolute;
+    bottom: -149px;
+    left: calc(23% - 80px);
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    cursor: pointer;
+}
+  
+  /*description */
+.description h1 h2 p {
+    display: inline-block;
+    padding-left: 46%;
+    padding-top: 0;
+    width: 70%;
+    margin-bottom: -10%;
+}
+.name{
+    width: 422;
+    height: 73px;
+    font-size: 55px;
+    color: #707070;
+    font-weight: bold;
+}
+.subtitle {
+    font: normal normal bold 34px/46px Segoe UI;
+    font-size: 34px;
+    color: #707070;
+    font-weight: 300;
+}
+.sobre_mim {
+    text-align: left;
+    font-size: 34px;
+    color: #707070;
+    font-weight: bold;
+}
+.descri {
+    text-align: left;
+    font-size: 18px;
+    color: #525151;
+    font-weight: 700;
+}
+
+  /*formacion*/
+  
+.formacion {
+    background-color: #2E476B;
+    opacity: 1;
+    width: 100%;
+}
+.objetivo{
+    background-color: #6187B9;
+    opacity: 1;
+    width: 100%;
+    color: #292828;
+}
+  
+.titulo2 {
+    text-align: left;
+    font-size: 55px;
+    color: #2c2929;
+    font-weight: 300;
+}
+
+.titulo3 {
+    text-align: left;
+    font-size: 55px;
+    color: #404041;
+    font-weight: 300;
+}
+
+.title{
+    font-size: 21px;
+    font-weight: bold;
+}
+.uni{
+    font-size:13px;
+    text-transform: uppercase;
+    margin:2px;
+}
+        
+  /*projects*/
+  
+.project {
+    background-color: #B9C8E6;
+}
+article {
+    width: 865px;
+    height: 353px;
+    opacity: 1;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+    padding-left: 300px;
+    padding-top: 34px; 
+}
+button {
+    width: 110px;
+    height: 34px;
+    border-radius: 10px;
+    opacity: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:1px;
+    margin-left:1px;
+    cursor: pointer;
+}
+
+/*Cards*/
+.cardp1{
+  height: 230px;
+  width: 210px;
+  background-color: #f7f4f2;
+  padding: 40px;
+  float: left;
+  margin: 0px;
+}
+.cardp2{
+  height: 230px;
+  width: 210px;
+  background-color: #fcfaf8;
+  padding: 40px;
+  float: left;
+  margin: 0px;
+}
+
+  /*footer*/
+.contato{
+    text-align: left;
+    font-size: 21px;
+    color: #707070;
+    background-color:#FFFFFF;
+}
+.titulo4 {
+    font-size: 55px;
+    color: #686565;
+    font-weight: 300;
+}
+.sec4 pi{
+    display: flex;
+}
+.media{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.primario {
+background-color: #585858;
+color: #fff;
+border-color: transparent;
+}
+
