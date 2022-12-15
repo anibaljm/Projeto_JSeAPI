@@ -29,24 +29,27 @@
          <section class= "img">
            <div>
                 <img class="perfil_img" src="img/4ef43f59-f3cc-4e98-950a-8104ee8e5c3e.jpg" alt="perfil avatar" width="200px" height="200px">
-                
-                <span class="contato1">
+
+                <div class="icon-git">
                     <a href="https://github.com/anibaljm/">
-                    <img src="img/github.png" alt="github" width="35px"></a></span>
+                    <img src="img/github.png" alt="github" width="40px"></a>
+                </a>
+                </div>
             
-                <span class="contato2">
+                <div class="icon-linkedin">
                     <a href="https://www.linkedin.com/in/anibal-jose-jimenez-mendoza-6b5745251/">
-                    <img src="img/linkedin.png" alt="linkedin" width="35px"></a></span>
+                    <img src="img/linkedin.png" alt="linkedin" width="40px"></a></div>
            
-                <span class="contato3">
-                    <a href="https://www.instagram.com/anibalj2004/">
-                    <img src="img/instagram.png" alt="instagram" width="35px"></a></span>
+                <div class="icon-instagram">
+                    <a href="https://www.instagram.com/anibalj2004/" title="Instagram">
+                        <img src="img/instagram.png" alt="instagram" width="40px"></a></div>
+
             </div>
 
             <!-- description -->
         <div id="sobremim" class="description"> 
-       <h1 class="name">Anibal Jiménez</h1>
-       <h2 class="subtitle"><i> Front-End Developer </i></h2>
+             <h1 class="name">Anibal Jiménez</h1>
+             <h2 class="subtitle"><i> Front-End Developer </i></h2>
         </div>
 
         <hr>
@@ -58,52 +61,32 @@
             </p>
         </div>
         </section>
-
+        <br><br>
         <!-- formacion -->  
        <section id="formation" class="formacion">
           <h2 class="titulo2">Formação</h2>
              <p class="title">Curso Introdução á Linguagem html</p>
              <p class="uni"> Alfahelix EScola de Computação </p><br>
              <p class="title">Desenvolvedor Front-End</p>
-             <p class="uni">Toti Diversidade </p></br>
+             <p class="uni">Toti Diversidade </p>
+             <br>
         </section>
-
         <section id="obj" class="objetivo">
             <h2 class="titulo2"> Objetivo</h2>
             <div class="descri">
             <p>Tenho como objetivo me tornar um professional na minha area de TI, crescer cada dia neste ambito é o meu foco, 
                 poder ajudar a quem precise e aportar boas ideias no mercado de trabalho. Ter uma estabilidade pessoal laboral e financeira 
                 para mim e minha familia é uma das metas que mais anhelo agradeço muito a TOTI por me dar a oportunidad de iniciar o caminho para alcanzar os meus objetivos.
-            </p></div>
+            </p><br></div>
         </section>
 
-        <!-- cards -->  
-       <section id="prj" class="project">
-         <h2 class="titulo3">Projetos</h2>
-
-            <article>
-                <div class="cardp1">
-                    <img src="img/git.png" width="150px" height="150px" alt="exercicios de git">
-                    <h3>Aulas de Git</h3>
-                    <p>exercicios de git feitos dentro das aulas gravadas</p>  
-                    <a href="https://github.com/anibaljm/Curso_Git">
-                        <button class="primario">
-                            <span>REPOSITÓRIO</span>
-                        </button>
-                    </a>
-                </div>
-
-                <div class="cardp2"> 
-                    <img src="img/strogonoff.jpeg" width="150px" height="150px" alt="strogonoff de frango">
-                    <h3>Strogonoff de Frango</h3>
-                    <p>Receita de strogonoff feita só com html</p>  
-                    <a href="https://github.com/anibaljm/exercicio_html">
-                        <button class="primario">REPOSITÓRIO</button>
-                    </a>
-                </div>
-            </article>
+        <!-- API -->  
+       <section class="API">
+            <br>       
+            <h2>Repositorios GITHUB</h2>
+            <div id="api"></div>
         </section>
-
+        
         <!-- footer -->  
     <footer >
         <section id="contacto" class="contato">
@@ -113,23 +96,70 @@
                         <p>Quer entrar em contato comigo?<br>
                         pode me encontrar nas seguintes redes sociais:</p>
                     </div>   
+                    <br>
                     <div >
                         <a href="https://www.linkedin.com/in/anibal-jose-jimenez-mendoza-6b5745251/" class="media" title="linkedin">
-                            <img src="img/linkedin.png" alt="Logo linkedin" width="20">
+                            <img src="img/linkedin.png" alt="Logo linkedin" width="40">
                         </a>
                         
                         <a href="https://github.com/anibaljm/" title="Github">
-                            <img src="img/github.png" alt="Logo GitHub" width="20">
+                            <img src="img/github.png" alt="Logo GitHub" width="40">
                         </a>
                     
                         <a href="https://www.instagram.com/anibalj2004/" title="instagram">
-                            <img src="img/instagram.png" alt="Logo instagram" width="20">
-                        </a>
+                            <img src="img/instagram.png" alt="Logo instagram" width="40">
+                        </a> 
                     </div>
+        </section>
+
+        <!--projeto javascript-->
+        <section>
+            <div class="formulario">
+                <h2 class="contato-email">Tambem pode me mandar um menssagem pelo email:</h2>
+                <form id="form" name="Formulario" method="post">  
+                    <label for="nome">Nome:</label>
+                    <input  
+                      id="nome"
+                      class="inputs required"
+                      type="text"
+                      name="form-nome"
+                      placeholder="digite aqui seu nome"
+                      required
+                      oninput="nameValidate()"/>
+                    <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+          
+                    <label>E-mail:</label>
+                    <input
+                      class="inputs required"  
+                      type="email"
+                      name="form-email"
+                      placeholder="digite aqui o seu e-mail"
+                      oninput="emailValidate()"/>
+                    <span class="span-required">Digite um email Valido</span>
+          
+                    <label>Assunto:</label>
+                    <input 
+                      class="inputs required"  
+                      type="text"
+                      name="form-assunto"
+                      placeholder="digite aqui o assunto do email"/>
+         
+                    <label>Texto:</label>
+                    <textarea
+                      class="inputs"  
+                      name="area_texto"
+                      id="descricao"
+                      cols="20"
+                      rows="10"
+                      placeholder="digite aqui a sua menssagem!">
+                    </textarea><br>
+                    <button type="submit">Enviar</button>
+                </form>
+          </div>
         </section>
     </footer>
 </div>
-
 </body>
+<script src="./script.js"></script>
 </html>
        
